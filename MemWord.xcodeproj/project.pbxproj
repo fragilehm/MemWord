@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8406CF291EF8E12B00231D07 /* WordsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406CF281EF8E12B00231D07 /* WordsManager.swift */; };
+		8406CF2B1EF9072800231D07 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406CF2A1EF9072800231D07 /* SettingsCell.swift */; };
+		8410F9F71EF4F82B00296880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410F9F61EF4F82B00296880 /* AppDelegate.swift */; };
+		8410F9F91EF4F82B00296880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410F9F81EF4F82B00296880 /* ViewController.swift */; };
+		8410F9FC1EF4F82B00296880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410F9FA1EF4F82B00296880 /* Main.storyboard */; };
+		8410F9FE1EF4F82B00296880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8410F9FD1EF4F82B00296880 /* Assets.xcassets */; };
+		8410FA011EF4F82B00296880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410F9FF1EF4F82B00296880 /* LaunchScreen.storyboard */; };
+		8410FA091EF5154900296880 /* MyWordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA081EF5154900296880 /* MyWordsVC.swift */; };
+		8410FA0B1EF5158400296880 /* AddWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA0A1EF5158400296880 /* AddWordVC.swift */; };
+		8410FA0D1EF5159C00296880 /* StarredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA0C1EF5159C00296880 /* StarredVC.swift */; };
+		8410FA0F1EF515AB00296880 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA0E1EF515AB00296880 /* SettingsVC.swift */; };
+		8410FA111EF515B800296880 /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA101EF515B800296880 /* CheckVC.swift */; };
+		8410FA1B1EF51B9A00296880 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410FA1A1EF51B9A00296880 /* CardCell.swift */; };
+		842B78961EFB757700684050 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B78951EFB757700684050 /* ColorPickerVC.swift */; };
+		842B789E1EFBA9DB00684050 /* FlipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B789D1EFBA9DB00684050 /* FlipVC.swift */; };
+		84D052C786D23A7888F70F78 /* Pods_MemWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C0A83EE003212FDC46FDA5 /* Pods_MemWord.framework */; };
+		84D4195A1F04DAC400C38431 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D419581F04DAC400C38431 /* Model.xcdatamodeld */; };
+		84EB97261EFE307E00BF6EA5 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB97251EFE307E00BF6EA5 /* ColorManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F14DD628C850F1F5362AD00 /* Pods-MemWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemWord.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemWord/Pods-MemWord.release.xcconfig"; sourceTree = "<group>"; };
+		17C0A83EE003212FDC46FDA5 /* Pods_MemWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406CF281EF8E12B00231D07 /* WordsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsManager.swift; sourceTree = "<group>"; };
+		8406CF2A1EF9072800231D07 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		8410F9F31EF4F82B00296880 /* MemWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8410F9F61EF4F82B00296880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8410F9F81EF4F82B00296880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8410F9FB1EF4F82B00296880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8410F9FD1EF4F82B00296880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8410FA001EF4F82B00296880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8410FA021EF4F82B00296880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8410FA081EF5154900296880 /* MyWordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWordsVC.swift; sourceTree = "<group>"; };
+		8410FA0A1EF5158400296880 /* AddWordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWordVC.swift; sourceTree = "<group>"; };
+		8410FA0C1EF5159C00296880 /* StarredVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarredVC.swift; sourceTree = "<group>"; };
+		8410FA0E1EF515AB00296880 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		8410FA101EF515B800296880 /* CheckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckVC.swift; sourceTree = "<group>"; };
+		8410FA1A1EF51B9A00296880 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = ../CardCell.swift; sourceTree = "<group>"; };
+		842B78951EFB757700684050 /* ColorPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		842B789D1EFBA9DB00684050 /* FlipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipVC.swift; sourceTree = "<group>"; };
+		84D419591F04DAC400C38431 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84EB97251EFE307E00BF6EA5 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		8951E45D598DFDCFEC9F1C8A /* Pods-MemWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemWord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemWord/Pods-MemWord.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8410F9F01EF4F82B00296880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D052C786D23A7888F70F78 /* Pods_MemWord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193FC618B94FF446F3826644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8951E45D598DFDCFEC9F1C8A /* Pods-MemWord.debug.xcconfig */,
+				0F14DD628C850F1F5362AD00 /* Pods-MemWord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8410F9EA1EF4F82B00296880 = {
+			isa = PBXGroup;
+			children = (
+				84D419581F04DAC400C38431 /* Model.xcdatamodeld */,
+				842CFACC1F02298600B863D5 /* Managers */,
+				8410F9F51EF4F82B00296880 /* MemWord */,
+				8410F9F41EF4F82B00296880 /* Products */,
+				193FC618B94FF446F3826644 /* Pods */,
+				B05B35D9E1DD2DB9C827B8D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8410F9F41EF4F82B00296880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8410F9F31EF4F82B00296880 /* MemWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8410F9F51EF4F82B00296880 /* MemWord */ = {
+			isa = PBXGroup;
+			children = (
+				842CFACD1F022A3A00B863D5 /* Cells */,
+				842CFACB1F02291F00B863D5 /* Controllers */,
+				8410F9F61EF4F82B00296880 /* AppDelegate.swift */,
+				8410F9FA1EF4F82B00296880 /* Main.storyboard */,
+				8410F9FD1EF4F82B00296880 /* Assets.xcassets */,
+				8410F9FF1EF4F82B00296880 /* LaunchScreen.storyboard */,
+				8410FA021EF4F82B00296880 /* Info.plist */,
+			);
+			path = MemWord;
+			sourceTree = "<group>";
+		};
+		842CFACB1F02291F00B863D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				842B789D1EFBA9DB00684050 /* FlipVC.swift */,
+				8410FA101EF515B800296880 /* CheckVC.swift */,
+				8410FA0A1EF5158400296880 /* AddWordVC.swift */,
+				8410FA081EF5154900296880 /* MyWordsVC.swift */,
+				8410F9F81EF4F82B00296880 /* ViewController.swift */,
+				8410FA0E1EF515AB00296880 /* SettingsVC.swift */,
+				842B78951EFB757700684050 /* ColorPickerVC.swift */,
+				8410FA0C1EF5159C00296880 /* StarredVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		842CFACC1F02298600B863D5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84EB97251EFE307E00BF6EA5 /* ColorManager.swift */,
+				8406CF281EF8E12B00231D07 /* WordsManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		842CFACD1F022A3A00B863D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8410FA1A1EF51B9A00296880 /* CardCell.swift */,
+				8406CF2A1EF9072800231D07 /* SettingsCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B05B35D9E1DD2DB9C827B8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C0A83EE003212FDC46FDA5 /* Pods_MemWord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8410F9F21EF4F82B00296880 /* MemWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410FA051EF4F82B00296880 /* Build configuration list for PBXNativeTarget "MemWord" */;
+			buildPhases = (
+				BAFE520831CC14F5AA4D610D /* [CP] Check Pods Manifest.lock */,
+				8410F9EF1EF4F82B00296880 /* Sources */,
+				8410F9F01EF4F82B00296880 /* Frameworks */,
+				8410F9F11EF4F82B00296880 /* Resources */,
+				836AE5A4C41DAFCA5357E246 /* [CP] Embed Pods Frameworks */,
+				7F0404B87C382529F27CDDA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemWord;
+			productName = MemWord;
+			productReference = 8410F9F31EF4F82B00296880 /* MemWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8410F9EB1EF4F82B00296880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ICoder;
+				TargetAttributes = {
+					8410F9F21EF4F82B00296880 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8410F9EE1EF4F82B00296880 /* Build configuration list for PBXProject "MemWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8410F9EA1EF4F82B00296880;
+			productRefGroup = 8410F9F41EF4F82B00296880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8410F9F21EF4F82B00296880 /* MemWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8410F9F11EF4F82B00296880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410FA011EF4F82B00296880 /* LaunchScreen.storyboard in Resources */,
+				8410F9FE1EF4F82B00296880 /* Assets.xcassets in Resources */,
+				8410F9FC1EF4F82B00296880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F0404B87C382529F27CDDA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemWord/Pods-MemWord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836AE5A4C41DAFCA5357E246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemWord/Pods-MemWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFE520831CC14F5AA4D610D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8410F9EF1EF4F82B00296880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410FA0D1EF5159C00296880 /* StarredVC.swift in Sources */,
+				8410FA0B1EF5158400296880 /* AddWordVC.swift in Sources */,
+				8410FA111EF515B800296880 /* CheckVC.swift in Sources */,
+				84D4195A1F04DAC400C38431 /* Model.xcdatamodeld in Sources */,
+				8410FA1B1EF51B9A00296880 /* CardCell.swift in Sources */,
+				84EB97261EFE307E00BF6EA5 /* ColorManager.swift in Sources */,
+				8406CF2B1EF9072800231D07 /* SettingsCell.swift in Sources */,
+				8410F9F91EF4F82B00296880 /* ViewController.swift in Sources */,
+				8410F9F71EF4F82B00296880 /* AppDelegate.swift in Sources */,
+				8406CF291EF8E12B00231D07 /* WordsManager.swift in Sources */,
+				842B78961EFB757700684050 /* ColorPickerVC.swift in Sources */,
+				8410FA091EF5154900296880 /* MyWordsVC.swift in Sources */,
+				8410FA0F1EF515AB00296880 /* SettingsVC.swift in Sources */,
+				842B789E1EFBA9DB00684050 /* FlipVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8410F9FA1EF4F82B00296880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8410F9FB1EF4F82B00296880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8410F9FF1EF4F82B00296880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8410FA001EF4F82B00296880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8410FA031EF4F82B00296880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8410FA041EF4F82B00296880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8410FA061EF4F82B00296880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8951E45D598DFDCFEC9F1C8A /* Pods-MemWord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ICoder.com.MemWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8410FA071EF4F82B00296880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F14DD628C850F1F5362AD00 /* Pods-MemWord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ICoder.com.MemWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8410F9EE1EF4F82B00296880 /* Build configuration list for PBXProject "MemWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410FA031EF4F82B00296880 /* Debug */,
+				8410FA041EF4F82B00296880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410FA051EF4F82B00296880 /* Build configuration list for PBXNativeTarget "MemWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410FA061EF4F82B00296880 /* Debug */,
+				8410FA071EF4F82B00296880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D419581F04DAC400C38431 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D419591F04DAC400C38431 /* Model.xcdatamodel */,
+			);
+			currentVersion = 84D419591F04DAC400C38431 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8410F9EB1EF4F82B00296880 /* Project object */;
+}
